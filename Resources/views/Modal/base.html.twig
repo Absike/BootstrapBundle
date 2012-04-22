@@ -1,0 +1,23 @@
+<div id="{{ id|default('modal') }}" class="modal fade">
+
+	{% block header %}
+	<div class="modal-header">
+		<a class="close" data-dismiss="modal">&times;</a>
+		<h3>{{ heading|default('') }}</h3>
+	</div>
+	{% endblock %}
+	
+	{% block body %}
+	<div class="modal-body">
+		<p>{{ message|default('') }}</p>
+	</div>
+	{% endblock %}
+	
+	{% block footer %}
+	<div class="modal-footer">
+		<a href="#" class="btn btn-primary action-confirm">{{ actionConfirm|default('Yes') }}</a>
+		<a href="#" class="btn action-cancel">{{ actionCancel|default('No') }}</a>
+	</div>
+	{% endblock %}
+	
+</div>
