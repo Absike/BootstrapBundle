@@ -1,9 +1,9 @@
 <?php
 
-namespace Malcolm\Bundle\BootstrapBundle;
+namespace Emarref\Bundle\BootstrapBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class MalcolmBootstrapBundle extends Bundle
+class BootstrapBundle extends Bundle
 {
 }
