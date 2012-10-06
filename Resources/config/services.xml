@@ -6,11 +6,11 @@
 
     <!--
     <parameters>
-        <parameter key="malcolm_bootstrap.example.class">Malcolm\Bundle\BootstrapBundle\Example</parameter>
+        <parameter key="emarref_bootstrap.example.class">Emarref\Bundle\BootstrapBundle\Example</parameter>
     </parameters>
 
     <services>
-        <service id="malcolm_bootstrap.example" class="%malcolm_bootstrap.example.class%">
+        <service id="emarref_bootstrap.example" class="%emarref_bootstrap.example.class%">
             <argument type="service" id="service_id" />
             <argument>plain_value</argument>
             <argument>%parameter_name%</argument>
