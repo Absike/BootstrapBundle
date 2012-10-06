@@ -1,6 +1,6 @@
 <?php
 
-namespace Emarref\Bundle\BootstrapBundle\DependencyInjection;
+namespace Emarref\BootstrapBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

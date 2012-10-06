@@ -1,6 +1,6 @@
 <?php
 
-namespace Emarref\Bundle\BootstrapBundle\DependencyInjection;
+namespace Emarref\BootstrapBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

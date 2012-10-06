@@ -1,6 +1,6 @@
 <?php
 
-namespace Emarref\Bundle\BootstrapBundle;
+namespace Emarref\BootstrapBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -6,7 +6,7 @@
 
     <!--
     <parameters>
-        <parameter key="emarref_bootstrap.example.class">Emarref\Bundle\BootstrapBundle\Example</parameter>
+        <parameter key="emarref_bootstrap.example.class">Emarref\BootstrapBundle\Example</parameter>
     </parameters>
 
     <services>
